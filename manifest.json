@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "OrinAyo",  
+  "short_name": "OrinAyo",
+  "description": "Use a Logitech Guitar Hero controller to play a Ketron SD series or Giglad arranger software",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "background": {
+	"persistent": false,
+	"scripts": [ 
+		"background.js"
+	]
+  }, 
+  "permissions": [
+    "storage",   
+    "unlimitedStorage"
+   ],
+  "browser_action": {
+      "default_icon": {
+		"16": "assets/icon_16.png"
+      }   
+  },
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  }
+}
